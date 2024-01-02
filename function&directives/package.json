@@ -1,0 +1,12 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/css/style.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.3.6"
+  }
+}

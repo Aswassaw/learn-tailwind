@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-6xl text-green-600 font-bold;
+  }
+}
+
+@layer components {
+  .description {
+    @apply italic font-semibold text-sm text-nibiru;
+    /* color: theme(colors.nibiru); */
+  }
+}

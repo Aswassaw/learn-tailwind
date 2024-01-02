@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belajar Tailwind Bagian 1</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Preahvihear&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          spacing: {
+            13: "3.25rem"
+          },
+          fontFamily: {
+            cobaS: ['Preahvihear'],
+            cobaB: ['Silkscreen']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style type="text/tailwindcss">
+  </style>
+</head>
+
+<body>
+  <h1 class="border-blue-300 border-2 p-2 m-5">Mari Belajar TailwindCSS</h1>
+
+  <section class="m-5 border-blue-500 border-2 border-1">
+    <h2 class="border-red-300 border-4 p-2">SPACING</h2>
+    <div class="ml-13">Margin</div>
+    <div class="p-4">Padding</div>
+  </section>
+
+  <section class="m-5">
+    <h2 class="border-red-300 border-4 p-2">SIZING</h2>
+    <div class="w-32 border-yellow-400 border-2">Kotak 1</div>
+    <div class="w-1/2 border-green-400 border-2">Kotak 2</div>
+    <div class="max-w-xs border-purple-400 border-2">Kotak 3</div>
+  </section>
+
+  <section class="m-5">
+    <h2 class="border-green-300 border-4 p-2 mb-4 text-4xl text-red-400">TYPOGRAPHY</h2>
+    <div class="font-bold">By Andry Pebrianto, 27 Februari 2013</div>
+    <p class="mb-4 font-mono text-green-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam doloremque
+      sapiente expedita
+      ipsam
+      corporis voluptate, perferendis eaque ducimus ullam itaque.</p>
+    <p class="mb-4 font-cobaS bg-gradient-to-tr from-red-400 via-blue-400 to-green-300 p-3 text-gray-800">Lorem ipsum, dolor sit amet
+      consectetur adipisicing elit. Facere, id!</p>
+    <p class="mb-4 font-cobaB text-blue-400 text-center bg-black p-3 rounded-md">Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Sequi enim molestias blanditiis
+      iure.
+      Accusamus, est libero? Sapiente voluptatem consectetur autem dolorem voluptatum facere? Doloremque error quisquam
+      esse beatae aperiam possimus.</p>
+    <p class="font-thin italic underline">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+  </section>
+
+  <h1 class="p-3 text-center text-4xl font-extrabold bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">ANDRY PEBRIANTO</h1>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belajar Tailwind Grid</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+        }
+      }
+    }
+  </script>
+
+  <style type="text/tailwindcss">
+  </style>
+</head>
+
+<body>
+  <div class="mt-64 p-2 font-mono grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 max-w-6xl mx-auto">
+    <h2 class="h-15 text-xl font-semibold text-slate-700 md:col-start-4 md:row-start-2 md:flex"><span
+        class="self-center">Welcome To WPU</span></h2>
+    <div class="h-15 text-lg font-bold text-slate-600 md:col-start-2 md:row-start-2 md:flex"><span
+        class="self-end">@andry-pebrianto</span></div>
+
+    <div class="h-15 bg-blue-500 aspect-[4/3] md:aspect-[3/4] xl:aspect-[4/3] rounded-lg group relative overflow-hidden">
+      <div class="w-full h-full bg-[url('./2.jpg')] bg-cover bg-center absolute group-hover:scale-125 transition duration-1000 group-hover:rotate-12"></div>
+    </div>
+    <div class="h-15 bg-blue-500 aspect-[4/3] md:aspect-[3/4] xl:aspect-[4/3] rounded-lg md:col-start-3">
+      <div class="w-full h-full bg-[url('./2.jpg')] bg-cover bg-center"></div>
+    </div>
+    <div class="h-15 bg-blue-500 aspect-[4/3] md:aspect-[3/4] xl:aspect-[4/3] rounded-lg">
+      <div class="w-full h-full bg-[url('./2.jpg')] bg-cover bg-center"></div>
+    </div>
+    <div class="h-15 bg-blue-500 aspect-[4/3] md:aspect-[3/4] xl:aspect-[4/3] rounded-lg">
+      <div class="w-full h-full bg-[url('./2.jpg')] bg-cover bg-center"></div>
+    </div>
+    <div class="h-15 bg-blue-500 aspect-[4/3] md:aspect-[3/4] xl:aspect-[4/3] rounded-lg">
+      <div class="w-full h-full bg-[url('./2.jpg')] bg-cover bg-center"></div>
+    </div>
+    <div class="h-15 bg-blue-500 aspect-[4/3] md:aspect-[3/4] xl:aspect-[4/3] rounded-lg md:col-start-2">
+      <div class="w-full h-full bg-[url('./2.jpg')] bg-cover bg-center"></div>
+    </div>
+    <div class="h-15 bg-blue-500 aspect-[4/3] md:aspect-[3/4] xl:aspect-[4/3] rounded-lg md:col-start-4">
+      <div class="w-full h-full bg-[url('./2.jpg')] bg-cover bg-center"></div>
+    </div>
+    <div class="h-15 bg-blue-500 aspect-[4/3] md:aspect-[3/4] xl:aspect-[4/3] rounded-lg">
+      <div class="w-full h-full bg-[url('./2.jpg')] bg-cover bg-center"></div>
+    </div>
+    <div class="h-15 bg-blue-500 aspect-[4/3] md:aspect-[3/4] xl:aspect-[4/3] rounded-lg">
+      <div class="w-full h-full bg-[url('./2.jpg')] bg-cover bg-center"></div>
+    </div>
+    <div class="h-15 bg-blue-500 aspect-[4/3] md:aspect-[3/4] xl:aspect-[4/3] rounded-lg">
+      <div class="w-full h-full bg-[url('./2.jpg')] bg-cover bg-center"></div>
+    </div>
+  </div>
+</body>
+
+</html>
